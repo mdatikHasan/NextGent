@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background: black;
+    padding: 0PX;
+    
+}
+
+.navbar-brand{
+    width: 130px;
+}
+
+
+.navbar .nav-item{
+    padding: 0px 16px;
+}
+
+
+#slider{
+    width: 100%;
+}
+
+.carousel-caption{
+    
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+.carousel-item{
+    height: 690px;
+}
+
+.carousel-caption h3{
+    font-size: 40px;
+}
+
+#about .container{
+    padding-top: 50px;
+}
+
+
+
+
+#services{
+    background-image: radial-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/7\ \(7\).jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#services i{
+    font-size: 35px;
+}
+
+.icon .fa{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#services .col-md-3:hover{
+    background: rgb(16, 94, 83);
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.9s;
+    opacity: 0.7;
+    border-radius: 7px;
+    
+}
+
+#services .container{
+    padding-top: 50px;
+}
+
+
+.profile-pic{
+    margin-top: 25px;
+}
+
+
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+
+
+
+
+#our-team .col-md-3{
+    background: rgb(237, 248, 252);
+    border-radius: 10px;
+}
+
+#our-team .col-md-3:hover{
+    background: rgb(82, 200, 243);
+    border-radius: 10px;
+    color: honeydew;
+    transition: 0.9s;
+}
+
+#our-team .img-box{
+   padding-top: 14px;
+}
+
+
+#our-team img{
+    background: rgb(206, 230, 206); 
+    padding-top: ;
+    border-radius: 100%;
+}
+
+#our-team .fa{
+    background: rgb(214, 239, 248);
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+
+#our-team .fa:hover{
+    background: white;
+    transition: 0.9s;
+}
+
+#our-team .container{
+    padding-top: 50px;
+}
+
+.team{
+    border-bottom: 2px solid rgb(70, 212, 255);
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+#price{
+    
+}
+
+
+#price-plan{
+  
+}
+
+#price-plan .card:hover{
+    box-shadow: 0px  2px 20px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+#testimonial img{
+    border-radius: 100%;
+    margin-top: -80px;
+    background: lightseagreen;
+    width: 200px;
+}
+
+
+#testimonial .card:hover{
+    box-shadow: 0px 2px 20px #333;
+}
+
+
+.fonticon{
+    margin-left: 122px;
+    
+}
+
+.fonticon .fa{
+    font-size: 40px;
+    padding-right: 20px;
+}
